@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    margin: 0; /* Supprimer les marges par défaut du corps de la page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+}
+
+.error404_container {
+    text-align: center; /* Centrer le texte à l'intérieur du conteneur */
+}
+
+.error404_message {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60;
+}
+
+.error404_image {
+    /* Ajoutez ici vos styles pour l'image, par exemple : */
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    height: auto; /* Assurez-vous que l'image conserve ses proportions originales */
+}
